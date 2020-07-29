@@ -86,7 +86,7 @@ ol {
 }
 
 .orientation-nav__section--left:hover ~ .orientation-nav__background {
-    animation: orientation-animation-left 2s linear;
+    animation: orientation-animation-left 2s cubic-bezier(0, 0.55, 0.45, 1);
     animation-fill-mode: forwards;
 }
 
@@ -116,7 +116,7 @@ ol {
 }
 
 .orientation-nav__section--right:hover ~ .orientation-nav__background {
-    animation: orientation-animation-right 2s linear;
+    animation: orientation-animation-right 2s cubic-bezier(0, 0.55, 0.45, 1);
     animation-fill-mode: forwards;
 }
 
