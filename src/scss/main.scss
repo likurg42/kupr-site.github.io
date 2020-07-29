@@ -86,7 +86,7 @@ ol {
 }
 
 .orientation-nav__section--left:hover ~ .orientation-nav__background {
-    animation: orientation-animation-left 2s ease-in;
+    animation: orientation-animation-left 2s linear;
     animation-fill-mode: forwards;
 }
 
